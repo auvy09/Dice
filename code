@@ -1,0 +1,12 @@
+import random
+ag= True
+a=1
+b=6
+while ag:
+    print(random.randint(a, b))
+    another_roll= input("Want to roll again? y/n")
+    if another_roll.lower()=="y":
+        continue
+    else:
+        break
+    
